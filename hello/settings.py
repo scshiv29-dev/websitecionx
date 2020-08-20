@@ -26,7 +26,7 @@ SECRET_KEY = '4$6#$a=s)-$ma&lm7(c=_v0lawpo$l*d93nze(l^1@l+0m@^@z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cionxesports.herokuapp.com']
 
 
 # Application definition
