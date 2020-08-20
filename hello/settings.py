@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '4$6#$a=s)-$ma&lm7(c=_v0lawpo$l*d93nze(l^1@l+0m@^@z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['cionxesports.herokuapp.com']
 
