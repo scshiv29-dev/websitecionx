@@ -22,6 +22,7 @@ admin.site.site_header = "cionxesports "
 admin.site.site_title = "cionx Admin Cionxesports admin Portal"
 
 urlpatterns = [
+     path('grappelli/', include('grappelli.urls')),
     path('admin/', admin.site.urls),
     path('',include('firstapp.urls')),
     path("law/",include("firstapp.urls")),
