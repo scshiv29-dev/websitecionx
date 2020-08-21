@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['cionxesports.herokuapp.com']
 
 INSTALLED_APPS = [
     'firstapp.apps.FirstappConfig',
+    'grappelli',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
